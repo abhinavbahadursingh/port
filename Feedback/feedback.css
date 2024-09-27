@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #1e1e1e; /* Darker container background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Soft light shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* White heading */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    /* padding: 10px; */
+    margin-bottom: 15px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 5px;
+    background-color: #333; /* Dark background for inputs */
+    color: #ffffff; /* Light text for inputs */
+}
+
+button {
+    background-color: #4caf50; /* Darker green */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; 
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4a3a92; /* Darker green on hover */
+}
+
+.response-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #4caf50; /* Match button color */
+}
